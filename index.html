@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster</title>
+    <style>
+        body {
+            background-image: url('p1.jpeg');
+            color: white;
+            margin: 0;
+            padding: 0;
+        } 
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background: black;
+            height: 50px;
+            align-items: center;
+            padding: 0 20px;
+            margin-top: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-weight: 900;
+        }
+        #t1{
+            margin-left: 300px;
+        }
+        #t2{
+            margin-right: 300px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+        td {
+            text-align: center;
+        }
+        .img1 {
+            height: 180px;
+            width: 180px;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border: 5px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 id="t1">HERO</h1>  
+        <h1 id="t2">VILLAIN</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <table>
+                <tr>
+                    <td><img class="img1" src="H1img.jpeg" alt="Hero Image 1"></td>
+                    <td><img class="img1" src="H2img.jpeg" alt="Hero Image 2"></td>
+                    <td><img class="img1" src="H3img.jpg" alt="Hero Image 3"></td>
+                </tr>
+                <tr>
+                    <td><img class="img1" src="H4img.jpeg" alt="Hero Image 4"></td>
+                    <td><img class="img1" src="H5img.jpeg" alt="Hero Image 5"></td>
+                    <td><img class="img1" src="H6img.jpeg" alt="Hero Image 6"></td>  
+                </tr>
+                <tr>
+                    <td><img class="img1" src="Hp7img.jpeg" alt="Hero Image 7"></td>
+                    <td><img class="img1" src="H8img.jpeg" alt="Hero Image 8"></td>
+                    <td><img class="img1" src="H9img.jpeg" alt="Hero Image 9"></td>  
+                </tr>
+            </table>
+        </div>
+        <div class="column">
+            <table>
+                <tr>
+                    <td><img class="img1" src="V1img.jpg" alt="Villain Image 1"></td>
+                    <td><img class="img1" src="V2img.jpg" alt="Villain Image 2"></td>
+                    <td><img class="img1" src="V3img.jpg" alt="Villain Image 3"></td>
+                </tr>
+                <tr>
+                    <td><img class="img1" src="V4img.jpg" alt="Villain Image 4"></td>
+                    <td><img class="img1" src="V5img.jpeg" alt="Villain Image 5"></td>
+                    <td><img class="img1" src="V6img.jpg" alt="Villain Image 6"></td>  
+                </tr>
+                <tr>
+                    <td><img class="img1" src="V7img.jpg" alt="Villain Image 7"></td>
+                    <td><img class="img1" src="V8img.jpg" alt="Villain Image 8"></td>
+                    <td><img class="img1" src="V9img.jpg" alt="Villain Image 9"></td>  
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
